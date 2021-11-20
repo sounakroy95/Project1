@@ -1,0 +1,29 @@
+/* We can move the common css elements in this file and remove them from page specific css files.
+But we will have to add all the elements of the */
+
+body {
+    background-color: rgb(233, 215, 207);
+    text-align: center;
+    color: rgb(83, 75, 75);
+    margin: 50px;
+  }
+  
+  h1 {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+ 
+  }
+  
+  a {
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(167, 1, 78);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
